@@ -1,0 +1,8 @@
+Description: >    
+    creating the s3 bucket
+Resources:
+    HelloVPC:
+        Type: AWS::S3::BUCKET
+        Properties:
+            BucketName: "testBucket"
+            AccessControl : Private
